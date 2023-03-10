@@ -17,17 +17,17 @@
 
                               @foreach ($movies as $movie)
                                     <div class="col-3 text-center">
-                                          <div class="card mt-3 mb-3">
+                                          <div class="card mt-3 mb-3 bg-warning">
                                                 <div class="card-body">
                                                       <img src="{{ $movie['img'] }}" class="card-img-top" alt="{{ $movie['title'] }}">
-                                                      <div class="card-header fw-bold">
+                                                      <div class="card-header fw-bold bg-danger">
                                                             {{ $movie['title'] }}
                                                       </div>
                                                       <ul class="list-group list-group-flush">
-                                                            <li class="list-group-item">{{ $movie['original_title'] }}</li>
-                                                            <li class="list-group-item">{{ $movie['nationality'] }}</li>
-                                                            <li class="list-group-item">{{ $movie['date'] }}</li>
-                                                            <li class="list-group-item">{{ $movie['vote'] }}</li>
+                                                            <li class="list-group-item bg-warning">{{ $movie['original_title'] }}</li>
+                                                            <li class="list-group-item bg-warning">{{ $movie['nationality'] }}</li>
+                                                            <li class="list-group-item bg-warning">{{ $movie['date'] }}</li>
+                                                            <li class="list-group-item bg-warning">{{ $movie['vote'] }}</li>
                                                       </ul>
                                                 </div>
                                           </div>                                          
