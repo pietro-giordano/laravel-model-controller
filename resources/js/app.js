@@ -8,5 +8,6 @@ import * as bootstrap from 'bootstrap';
 
 // Istruiamo Vite e Blade affinchè processino correttamente i nostri assets
 import.meta.glob([
-    '../img/**'
+      '../img/**'
 ]);
+

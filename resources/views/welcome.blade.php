@@ -17,9 +17,10 @@
 
                               @foreach ($movies as $movie)
                                     <div class="col-3 text-center">
-                                          <div class="card mt-3">
+                                          <div class="card mt-3 mb-3">
                                                 <div class="card-body">
-                                                      <div class="card-header">
+                                                      <img src="{{ $movie['img'] }}" class="card-img-top" alt="{{ $movie['title'] }}">
+                                                      <div class="card-header fw-bold">
                                                             {{ $movie['title'] }}
                                                       </div>
                                                       <ul class="list-group list-group-flush">
